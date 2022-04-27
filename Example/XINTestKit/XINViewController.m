@@ -8,6 +8,8 @@
 
 #import "XINViewController.h"
 
+#import <XINTestKit/XINLogViewController.h>
+
 @interface XINViewController ()
 
 @end
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    XINLogViewController *vc = [[XINLogViewController alloc] init];
+    [vc testLog];
 }
 
 - (void)didReceiveMemoryWarning

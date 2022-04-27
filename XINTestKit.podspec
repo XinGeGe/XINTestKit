@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XINTestKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XINTestKit.'
+  s.summary          = 'a summary'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+a description a description
                        DESC
 
   s.homepage         = 'https://github.com/XinGeGe/XINTestKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'XinGeGe' => 'xin3478338@163.com' }
-  s.source           = { :git => 'https://github.com/XinGeGe/XINTestKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XinGeGe/XINTestKit.git', :tag => '0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

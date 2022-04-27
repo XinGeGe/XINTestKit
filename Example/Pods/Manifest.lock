@@ -1,0 +1,16 @@
+PODS:
+  - XINTestKit (0.1.0)
+
+DEPENDENCIES:
+  - XINTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  XINTestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XINTestKit: 291492e5de47be043072c9b0aadcdda639923aec
+
+PODFILE CHECKSUM: 0d2abe24ba70b8ed2e6368674ea9816a8f8436ae
+
+COCOAPODS: 1.10.2

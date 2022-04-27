@@ -1,0 +1,6 @@
+framework module XINTestKit {
+  umbrella header "XINTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
