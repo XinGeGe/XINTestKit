@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XINTestKit_Example' do
+  pod 'XINTestKit', :path => '../'
+
+  target 'XINTestKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
